@@ -1,6 +1,6 @@
 # programming past exam
 
-the programming past exam at NUTU.
+the programming past exam at NTUT.
 
 language: C/C++
 
