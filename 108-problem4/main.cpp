@@ -1,10 +1,16 @@
+/*
+*
+* NTUT 108 Problem 4
+*
+*/
+
 #include <iostream>
 using namespace std;
 
 class N{
     public:
         N():np(new int[5]){}
-        ~N(){
+        virtual ~N(){
             delete np;
         }
     private:
