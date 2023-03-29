@@ -1,3 +1,9 @@
+/*
+*
+* NTUT 107 Problem 4
+*
+*/
+
 #include <iostream>
 using namespace std;
 class Computer{
@@ -36,7 +42,7 @@ class AbstractData{
             }
         }  
         T mean(){
-            int mValue = 0;
+            T mValue = 0;
             for(int i=0; i<_size; i++){
                 mValue += _score[i];
             }

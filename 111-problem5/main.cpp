@@ -17,7 +17,7 @@ string print(T x){
 }
 
 class Pet{
-private:
+protected:
 	double _weight;
 	string _name;
 public:
@@ -35,7 +35,7 @@ public:
 class Cat:public Pet{
 private:
 	vector<string> _toy;
-	bool sortedByAlph(string a,string b){
+	bool static sortedByAlph(string a,string b){
 		return a[0] > b[0];
 	}
 public:
@@ -49,7 +49,7 @@ public:
 		return "cat's toy::" + _toy.at(index);
 	}
 	string getName() const override{
-		return "cat::"+ _name;
+		return "cat::" + _name;
 	}
 };
 

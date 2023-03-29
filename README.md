@@ -1,7 +1,9 @@
-# programming past exam
+# Programming past exams
 
-the programming past exam at NTUT.
+NTUT CSIE Master’s Degree Programming Past Exams.
 
-language: C/C++
+Range：OOP、Data Structure、Algorithm.
 
-range: OOP、data structure、algorithm
+Good luck with your exam！٩(^ᴗ^)۶
+
+> If this answer is wrong, please tell me to correct this mistake.

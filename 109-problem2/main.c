@@ -42,7 +42,7 @@ void foo(STUDENT *students) {
   for (int i=0; i<NUM_OF_STUDENT; i++){
     for (int j=i+1; j<NUM_OF_STUDENT; j++){
       if (students[i].score > students[j].score){
-        swap2(&students[i], &students[j]);
+        swap1(*(students+i), *(students+j));
       }
     }
   }
@@ -58,29 +58,6 @@ void bar(STUDENT *students) {
   }
 }
 
-/*
-
-void foo(STUDENT *students) {
-  for (int i=0; i<NUM_OF_STUDENT; i++){
-    for (int j=i+1; j<NUM_OF_STUDENT; j++){
-      if (students[i].score > students[j].score){
-        swap1(students[i].score, students[j].score);
-      }
-    }
-  }
-}
-
-void bar(STUDENT *students) {
-  for (int i=0; i<NUM_OF_STUDENT; i++){
-    for (int j=i+1; j<NUM_OF_STUDENT; j++){
-      if (students[i].score < students[j].score){
-        swap2(&students[i].score, &students[j].score);
-      }
-    }
-  }
-}
-
-*/
 
 int main(void) {
   char *ids[NUM_OF_STUDENT] = {"t001","t002","t003","t004","t005"};
@@ -91,8 +68,9 @@ int main(void) {
   // initialize each student's id and score
   for (int i=0; i<NUM_OF_STUDENT; i++) {
     copy_string(students[i].id, ids[i]);
-    students[i].score = scores[i];
+    (students+i)->score = scores[i];
   }
+
 
   foo(students);
   printf("%s\n", students[0].id);

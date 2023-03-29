@@ -1,3 +1,9 @@
+/*
+*
+* NTUT 107 Problem 3
+*
+*/
+
 #include <stdio.h>
 #define SIZE 20
 typedef enum {False = 0, True = 1} Bool;
