@@ -27,14 +27,14 @@ void build(nodep_t current, nodep_t newNode, int value) {
         if (value < parent->data) {
             current = current->left;
             if (current == NULL) {
-                current->left = newNode;
+                parent->left = newNode;
                 return;
             }
         }
         else {
             current = current->right;
             if(current == NULL) {
-                current->right = newNode;
+                parent->right = newNode;
                 return;
             }
         }
