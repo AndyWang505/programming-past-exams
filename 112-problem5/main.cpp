@@ -45,7 +45,7 @@ class NewBloodyMary;
 static NewBloodyMary CreateNewBloodyMary(string name, int price, double content);
 
 class NewBloodyMary : public RedTea {
-    static NewBloodyMary CreateNewBloodyMary(string name, int price, double content);
+    friend NewBloodyMary CreateNewBloodyMary(string name, int price, double content);
     private:
         NewBloodyMary(string name, int price, double content) : RedTea(name, price, content) {}
     public:
