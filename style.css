@@ -1,0 +1,77 @@
+html,
+body,
+a,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+span,
+ul,
+ol,
+li {
+  margin: 0;
+  padding: 0;
+  font: inherit;
+  font-family: "Noto Sans TC", sans-serif;
+  font-weight: 400;
+  vertical-align: baseline;
+  text-decoration: none;
+  list-style: none;
+  line-height: 1.5;
+}
+
+main {
+  margin: 0 auto;
+  max-width: 72rem;
+  padding: 3rem;
+}
+
+footer {
+  margin-top: 4rem;
+  padding: 3rem;
+  text-align: center;
+  background-color: #24292e;
+  color: white;
+}
+
+h1 {
+  font-size: 1.875rem;
+  line-height: 2.25rem;
+  font-weight: 600;
+  margin-bottom: 2rem;
+}
+
+h2 {
+  font-size: 1.5rem;
+  line-height: 2rem;
+  font-weight: 600;
+  margin-bottom: 2rem;
+}
+
+h3 {
+  font-size: 1.25rem;
+  line-height: 2rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+
+p,
+ul,
+li {
+  margin-bottom: 1rem;
+}
+
+ul {
+  margin-left: 2rem;
+}
+
+li {
+  list-style: disc;
+}
+
+.contact {
+  margin-top: 3rem;
+}
