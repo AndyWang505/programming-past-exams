@@ -1,9 +1,12 @@
-# Programming past exams
+# Programming Past Exams
 
-NTUT CSIE Master’s Degree Programming Past Exams.
+Past programming exams for the NTUT CSIE Master’s program.
 
-Range：OOP、Data Structure、Algorithm.
+## Topics
+- Object-Oriented Programming (OOP)
+- Data Structures
+- Algorithms
 
-Good luck with your exam！٩(^ᴗ^)۶
+Good luck with your exam! 🍀
 
-> If this answer is wrong, please tell me to correct this mistake.
+> If you find any mistakes, please feel free to let me know.
